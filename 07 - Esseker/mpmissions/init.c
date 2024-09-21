@@ -14,7 +14,7 @@ void main()
 	if ( ce )
 		ce.InitOffline();
 	
-	GetCEApi().ExportProxyData( "10240 0 10240", 20480 );  //Center of map, radius of how far to go out and find buildings.
+	//GetCEApi().ExportProxyData(vector.Zero, 100000);
 
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
@@ -74,9 +74,9 @@ class CustomMission: MissionServer
 
 		if ( itemTop )
 		{
-			itemEnt = itemTop.GetInventory().CreateInInventory("Rag");
+			itemEnt = itemTop.GetInventory().CreateInInventory("BandageDressing");
 			if ( Class.CastTo(itemBs, itemEnt ) )
-				itemBs.SetQuantity(4);
+				itemBs.SetQuantity(2);
 
 			SetRandomHealth(itemEnt);
 
