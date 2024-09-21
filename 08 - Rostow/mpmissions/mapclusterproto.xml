@@ -10,6 +10,12 @@
 			<export name="PathR30" shape="dz\structures\Roads\Parts\mud_15 75.p3d" />
 			<export name="Stones" shape="dz\rocks\stones_erosion.p3d" />
 			
+			<export name="Stone1" shape="dz\rocks\stone1.p3d" />
+			<export name="Stone2" shape="dz\rocks\stone2.p3d" />
+			<export name="Stone3" shape="dz\rocks\stone3.p3d" />
+			<export name="Stone4" shape="dz\rocks\stone4.p3d" />
+			<export name="Stone5" shape="dz\rocks\stone5.p3d" />
+			
 			<export name="Rail1" shape="dz\structures\rail\tracks\rail_track_25.p3d" />
 			<export name="Rail2" shape="dz\structures\rail\tracks\rail_tracke_25.p3d" />
 			<export name="Rail3" shape="dz\structures\rail\tracks\rail_tracke_40.p3d" />
@@ -255,162 +261,190 @@
 			</container>
 		</cluster>
 <!--STONES -->
-		<cluster name="PathD_02k" lootmax="2" maxinstances="30">
+		<cluster name="PathD10" lootmax="2" maxinstances="5">
 			<de name="TrajectoryStones" />
 			<container name="road" lootmax="1">
-				<point pos="4.75 -0.10 1.06" range="0.30" height="0.43" flags="32" />
-				<point pos="-4.22 -0.10 -0.88" range="0.30" height="0.43" flags="32" />
-				<point pos="1.23 -0.10 -0.94" range="0.30" height="0.43" flags="32" />
-				<point pos="3.42 -0.10 -0.70" range="0.30" height="0.43" flags="32" />
-				<point pos="-3.29 -0.10 0.85" range="0.30" height="0.43" flags="32" />
-				<point pos="-1.13 -0.10 0.85" range="0.30" height="0.43" flags="32" />
+			<point pos="2.19 0.20 -0.46" range="0.75" height="1.00" flags="32" />
+			<point pos="-3.41 0.20 -0.11" range="0.75" height="1.00" flags="32" />
+			<point pos="-0.53 0.20 -0.09" range="0.75" height="1.00" flags="32" />
 			</container>
 		</cluster>
-		<cluster name="PathD_11k" lootmax="2" maxinstances="30">
+		<cluster name="PathD30" lootmax="2" maxinstances="5">
 			<de name="TrajectoryStones" />
 			<container name="road" lootmax="1">
-				<point pos="6.62 -0.10 0.93" range="0.30" height="0.43" flags="32" />
-				<point pos="2.04 -0.10 -0.75" range="0.30" height="0.43" flags="32" />
-				<point pos="0.82 -0.10 0.74" range="0.30" height="0.43" flags="32" />
-				<point pos="-3.30 -0.10 -0.82" range="0.30" height="0.43" flags="32" />
-				<point pos="4.82 -0.10 -0.72" range="0.30" height="0.43" flags="32" />
-				<point pos="-5.90 -0.10 0.92" range="0.30" height="0.43" flags="32" />
+			<point pos="-2.40 0.20 0.12" range="0.75" height="1.00" flags="32" />
+			<point pos="-5.04 0.20 -0.10" range="0.75" height="1.00" flags="32" />
+			<point pos="1.59 0.20 0.30" range="0.75" height="1.00" flags="32" />
+			<point pos="6.23 0.20 -0.02" range="0.75" height="1.00" flags="32" />
+			<point pos="-10.04 0.20 -0.29" range="0.75" height="1.00" flags="32" />
 			</container>
 		</cluster>
-		<cluster name="PathD_10100" lootmax="2" maxinstances="30">
+		<cluster name="PathR10" lootmax="2" maxinstances="5">
 			<de name="TrajectoryStones" />
 			<container name="road" lootmax="1">
-				<point pos="0.73 -0.10 -0.61" range="0.30" height="0.43" flags="32" />
-				<point pos="5.49 -0.10 0.18" range="0.30" height="0.43" flags="32" />
-				<point pos="-4.90 -0.10 -0.14" range="0.30" height="0.43" flags="32" />
-				<point pos="6.51 -0.10 -1.45" range="0.30" height="0.43" flags="32" />
-				<point pos="-2.00 -0.10 1.48" range="0.30" height="0.43" flags="32" />
+			<point pos="1.89 0.20 -0.34" range="0.75" height="1.00" flags="32" />
+			<point pos="-1.13 0.20 -0.11" range="0.75" height="1.00" flags="32" />
+			<point pos="-3.74 0.20 -0.03" range="0.75" height="1.00" flags="32" />
 			</container>
 		</cluster>
-		<cluster name="PathD_1025" lootmax="2" maxinstances="30">
+		<cluster name="PathR30" lootmax="2" maxinstances="5">
 			<de name="TrajectoryStones" />
 			<container name="road" lootmax="1">
-				<point pos="1.50 -0.10 0.25" range="0.30" height="0.43" flags="32" />
-				<point pos="-1.74 -0.10 -0.60" range="0.30" height="0.43" flags="32" />
-				<point pos="1.77 -0.10 0.97" range="0.30" height="0.43" flags="32" />
-				<point pos="1.19 -0.10 -1.23" range="0.30" height="0.43" flags="32" />
-				<point pos="-1.08 -0.10 1.20" range="0.30" height="0.43" flags="32" />
+			<point pos="-9.11 0.20 -0.50" range="0.75" height="1.00" flags="32" />
+			<point pos="-4.72 0.20 -0.35" range="0.75" height="1.00" flags="32" />
+			<point pos="-0.48 0.20 0.16" range="0.75" height="1.00" flags="32" />
+			<point pos="7.44 0.20 -0.33" range="0.75" height="1.00" flags="32" />
 			</container>
 		</cluster>
-		<cluster name="PathD_1050" lootmax="2" maxinstances="30">
+		<cluster name="PathDCurve" lootmax="2" maxinstances="5">
 			<de name="TrajectoryStones" />
 			<container name="road" lootmax="1">
-				<point pos="1.50 -0.10 0.25" range="0.30" height="0.43" flags="32" />
-				<point pos="-3.07 -0.10 -0.66" range="0.30" height="0.43" flags="32" />
-				<point pos="6.54 -0.10 -1.79" range="0.30" height="0.43" flags="32" />
-				<point pos="4.57 -0.10 0.48" range="0.30" height="0.43" flags="32" />
-				<point pos="-0.53 -0.10 1.16" range="0.30" height="0.43" flags="32" />
-				<point pos="0.10 -0.10 -0.76" range="0.30" height="0.43" flags="32" />
+			<point pos="-3.68 0.20 0.85" range="0.75" height="1.00" flags="32" />
+			<point pos="-0.71 0.20 0.97" range="0.75" height="1.00" flags="32" />
+			<point pos="3.10 0.20 0.18" range="0.75" height="1.00" flags="32" />
 			</container>
 		</cluster>
-		<cluster name="PathD_1075" lootmax="2" maxinstances="30">
+		<cluster name="PathRCurve" lootmax="2" maxinstances="5">
 			<de name="TrajectoryStones" />
 			<container name="road" lootmax="1">
-				<point pos="-1.70 -0.10 -0.43" range="0.30" height="0.43" flags="32" />
-				<point pos="1.62 -0.10 1.00" range="0.30" height="0.43" flags="32" />
-				<point pos="-0.58 -0.10 1.17" range="0.30" height="0.43" flags="32" />
-				<point pos="1.71 -0.10 -0.90" range="0.30" height="0.43" flags="32" />
+			<point pos="4.02 0.20 -0.41" range="0.75" height="1.00" flags="32" />
+			<point pos="0.40 0.20 0.73" range="0.75" height="1.00" flags="32" />
+			<point pos="-3.34 0.20 0.90" range="0.75" height="1.00" flags="32" />
 			</container>
 		</cluster>
-		<cluster name="PathD_12" lootmax="2" maxinstances="30">
+		<cluster name="Stones" lootmax="2" maxinstances="5">
 			<de name="TrajectoryStones" />
 			<container name="road" lootmax="1">
-				<point pos="1.50 -0.10 0.25" range="0.30" height="0.43" flags="32" />
-				<point pos="3.96 -0.10 -0.86" range="0.30" height="0.43" flags="32" />
-				<point pos="0.77 -0.10 -0.21" range="0.30" height="0.43" flags="32" />
-				<point pos="-5.84 -0.10 -1.17" range="0.30" height="0.43" flags="32" />
-				<point pos="-7.84 -0.10 0.89" range="0.30" height="0.43" flags="32" />
-				<point pos="6.45 -0.10 1.41" range="0.30" height="0.43" flags="32" />
-				<point pos="-1.32 -0.10 0.86" range="0.30" height="0.43" flags="32" />
+			<point pos="-2.07 0.20 -0.41" range="0.75" height="1.00" flags="32" />
+			<point pos="0.32 0.20 0.84" range="0.75" height="1.00" flags="32" />
+			<point pos="-1.92 0.20 -2.90" range="0.75" height="1.00" flags="32" />
+			<point pos="0.89 0.20 -2.82" range="0.75" height="1.00" flags="32" />
 			</container>
 		</cluster>
-		<cluster name="PathD_1575" lootmax="2" maxinstances="30">
+		<cluster name="Rail1" lootmax="2" maxinstances="5">
 			<de name="TrajectoryStones" />
 			<container name="road" lootmax="1">
-				<point pos="1.50 -0.10 0.25" range="0.30" height="0.43" flags="32" />
-				<point pos="0.91 -0.10 1.00" range="0.30" height="0.43" flags="32" />
-				<point pos="-3.36 -0.10 -0.31" range="0.30" height="0.43" flags="32" />
-				<point pos="-2.17 -0.10 1.32" range="0.30" height="0.43" flags="32" />
-				<point pos="6.04 -0.10 0.16" range="0.30" height="0.43" flags="32" />
-				<point pos="4.90 -0.10 -1.48" range="0.30" height="0.43" flags="32" />
-				<point pos="2.45 -0.10 -0.76" range="0.20" height="0.43" flags="32" />
+			<point pos="-2.92 0.75 0.04" range="0.50" height="1.50" />
+			<point pos="0.40 0.75 0.06" range="0.50" height="1.50" />
+			<point pos="5.46 0.75 0.15" range="0.50" height="1.50" />
+			<point pos="8.44 0.75 0.20" range="0.50" height="1.50" />
+			<point pos="-7.38 0.75 -0.17" range="0.50" height="1.50" />
 			</container>
 		</cluster>
-		<cluster name="PathD_2250" lootmax="2" maxinstances="20">
+		<cluster name="Rail2" lootmax="2" maxinstances="5">
 			<de name="TrajectoryStones" />
 			<container name="road" lootmax="1">
-				<point pos="1.50 -0.10 0.25" range="0.30" height="0.43" flags="32" />
-				<point pos="2.38 -0.10 -0.73" range="0.30" height="0.43" flags="32" />
-				<point pos="-1.45 -0.10 0.46" range="0.30" height="0.43" flags="32" />
-				<point pos="3.47 -0.10 1.19" range="0.30" height="0.43" flags="32" />
-				<point pos="0.72 -0.10 2.17" range="0.30" height="0.43" flags="32" />
+			<point pos="-1.09 0.95 0.12" range="0.50" height="1.50" />
+			<point pos="2.17 0.95 0.20" range="0.50" height="1.50" />
+			<point pos="6.22 0.95 0.32" range="0.50" height="1.50" />
+			<point pos="-5.83 0.95 0.01" range="0.50" height="1.50" />
 			</container>
 		</cluster>
-		<cluster name="PathD_25" lootmax="2" maxinstances="20">
+		<cluster name="Rail3" lootmax="2" maxinstances="5">
 			<de name="TrajectoryStones" />
 			<container name="road" lootmax="1">
-				<point pos="-5.73 -0.10 0.86" range="0.30" height="0.43" flags="32" />
-				<point pos="-0.78 -0.10 0.96" range="0.30" height="0.43" flags="32" />
-				<point pos="5.19 -0.10 0.73" range="0.30" height="0.43" flags="32" />
-				<point pos="-10.62 -0.10 -1.12" range="0.30" height="0.43" flags="32" />
-				<point pos="13.91 -0.10 1.69" range="0.30" height="0.43" flags="32" />
-				<point pos="18.08 -0.10 -0.38" range="0.30" height="0.43" flags="32" />
-				<point pos="-13.68 -0.10 0.97" range="0.30" height="0.43" flags="32" />
-				<point pos="7.83 -0.10 -0.43" range="0.30" height="0.43" flags="32" />
+			<point pos="-9.82 0.95 -0.05" range="0.50" height="1.50" />
+			<point pos="-6.27 0.95 -0.15" range="0.50" height="1.50" />
+			<point pos="-3.02 0.95 -0.01" range="0.50" height="1.50" />
+			<point pos="-0.31 0.95 0.04" range="0.50" height="1.50" />
+			<point pos="2.94 0.95 0.15" range="0.50" height="1.50" />
+			<point pos="5.54 0.95 0.27" range="0.50" height="1.50" />
+			<point pos="9.00 0.95 0.33" range="0.50" height="1.50" />
+			<point pos="12.59 0.95 0.34" range="0.50" height="1.50" />
+			<point pos="-12.35 0.95 -0.20" range="0.50" height="1.50" />
 			</container>
 		</cluster>
-		<cluster name="PathD_3025" lootmax="2" maxinstances="20">
+		<cluster name="Rail4" lootmax="2" maxinstances="5">
 			<de name="TrajectoryStones" />
 			<container name="road" lootmax="1">
-				<point pos="2.60 -0.10 0.74" range="0.30" height="0.43" flags="32" />
-				<point pos="-1.51 -0.10 -0.03" range="0.30" height="0.43" flags="32" />
-				<point pos="1.90 -0.10 -1.19" range="0.30" height="0.43" flags="32" />
-				<point pos="-0.32 -0.10 1.37" range="0.30" height="0.43" flags="32" />
+			<point pos="2.34 0.95 -0.03" range="0.50" height="1.50" />
+			<point pos="-2.26 0.95 -0.13" range="0.50" height="1.50" />
+			<point pos="-5.98 0.95 -0.19" range="0.50" height="1.50" />
+			<point pos="6.61 0.95 0.10" range="0.50" height="1.50" />
 			</container>
 		</cluster>
-		<cluster name="PathD_6" lootmax="2" maxinstances="20">
+		<cluster name="Rail5" lootmax="2" maxinstances="5">
 			<de name="TrajectoryStones" />
 			<container name="road" lootmax="1">
-				<point pos="-1.13 -0.10 0.65" range="0.30" height="0.43" flags="32" />
-				<point pos="6.36 -0.10 1.07" range="0.30" height="0.43" flags="32" />
-				<point pos="1.78 -0.10 0.98" range="0.30" height="0.43" flags="32" />
-				<point pos="2.45 -0.10 -0.64" range="0.30" height="0.43" flags="32" />
-				<point pos="7.42 -0.10 -0.76" range="0.30" height="0.43" flags="32" />
-				<point pos="-2.78 -0.10 -1.14" range="0.30" height="0.43" flags="32" />
+			<point pos="-6.27 0.95 -0.150061" range="0.50" height="1.50" />
+			<point pos="-1.77 0.95 -0.058546" range="0.50" height="1.50" />
+			<point pos="1.76 0.95 0.019553" range="0.50" height="1.50" />
+			<point pos="5.25 0.95 0.021179" range="0.50" height="1.50" />
 			</container>
 		</cluster>
-		<cluster name="PathD_6010" lootmax="2" maxinstances="20">
+		<cluster name="Rail6" lootmax="2" maxinstances="5">
 			<de name="TrajectoryStones" />
 			<container name="road" lootmax="1">
-				<point pos="-1.49 -0.10 0.34" range="0.30" height="0.43" flags="32" />
-				<point pos="0.38 -0.10 -1.59" range="0.30" height="0.43" flags="32" />
-				<point pos="0.27 -0.10 1.062" range="0.30" height="0.43" flags="32" />
-				<point pos="1.26 -0.10 0.45" range="0.30" height="0.43" flags="32" />
+			<point pos="5.46 0.95 0.15" range="0.50" height="1.50" />
+			<point pos="1.05 0.95 -0.11" range="0.50" height="1.50" />
+			<point pos="-4.30 0.95 -0.21" range="0.50" height="1.50" />
 			</container>
 		</cluster>
-		<cluster name="PathD_6ko" lootmax="2" maxinstances="20">
+		<cluster name="Rail7" lootmax="2" maxinstances="5">
 			<de name="TrajectoryStones" />
 			<container name="road" lootmax="1">
-				<point pos="1.59 -0.10 -0.09" range="0.30" height="0.43" flags="32" />
-				<point pos="-0.21 -0.10 1.28" range="0.30" height="0.43" flags="32" />
-				<point pos="2.36 -0.10 0.84" range="0.30" height="0.43" flags="32" />
-				<point pos="2.41 -0.10 -0.78" range="0.30" height="0.43" flags="32" />
-				<point pos="-0.12 -0.10 -0.75" range="0.30" height="0.43" flags="32" />
+			<point pos="2.64 0.95 0.23" range="0.50" height="1.50" />
+			<point pos="-1.27 0.95 0.07" range="0.50" height="1.50" />
+			<point pos="-4.46 0.95 0.11" range="0.50" height="1.50" />
 			</container>
 		</cluster>
-		<cluster name="PathD_7100" lootmax="2" maxinstances="20">
+		<cluster name="Rail8" lootmax="2" maxinstances="5">
 			<de name="TrajectoryStones" />
 			<container name="road" lootmax="1">
-				<point pos="-0.71 -0.10 -0.66" range="0.30" height="0.43" flags="32" />
-				<point pos="-3.96 -0.10 -0.48" range="0.30" height="0.43" flags="32" />
-				<point pos="2.51 -0.10 -0.66" range="0.30" height="0.43" flags="32" />
-				<point pos="1.35 -0.10 1.01" range="0.30" height="0.43" flags="32" />
-				<point pos="-3.15 -0.10 1.20" range="0.30" height="0.43" flags="32" />
+			<point pos="-2.82 0.95 -0.23" range="0.50" height="1.50" />
+			<point pos="0.60 0.95 -0.20" range="0.50" height="1.50" />
+			<point pos="4.60 0.95 -0.02" range="0.50" height="1.50" />
+			<point pos="8.46 0.95 0.11" range="0.50" height="1.50" />
+			<point pos="-7.62 0.95 -0.22" range="0.50" height="1.50" />
+			</container>
+		</cluster>
+		<cluster name="Rail9" lootmax="2" maxinstances="5">
+			<de name="TrajectoryStones" />
+			<container name="road" lootmax="1">
+			<point pos="-5.83 0.95 0.01" range="0.50" height="1.50" />
+			<point pos="-0.87 0.95 0.28" range="0.50" height="1.50" />
+			<point pos="1.63 0.95 0.33" range="0.50" height="1.50" />
+			<point pos="6.21 0.95 0.31" range="0.50" height="1.50" />
+			</container>
+		</cluster>
+		<cluster name="Stone1" lootmax="2">
+			<de name="TrajectoryStones" />
+			<container name="road" lootmax="1">
+			<point pos="1.495153 -0.501526 0.119188" range="0.478125" height="1.195313" flags="32" />
+			<point pos="-1.820516 -0.879303 -0.069031" range="0.478125" height="1.195313" flags="32" />
+			<point pos="-0.040581 -0.670837 -1.206359" range="0.478125" height="1.195313" flags="32" />
+			</container>
+		</cluster>
+		<cluster name="Stone2" lootmax="2">
+			<de name="TrajectoryStones" />
+			<container name="road" lootmax="1">
+			<point pos="1.495153 -0.501526 0.119188" range="0.478125" height="1.195313" flags="32" />
+			<point pos="-1.820516 -0.879303 -0.069031" range="0.478125" height="1.195313" flags="32" />
+			<point pos="-0.040581 -0.670837 -1.206359" range="0.478125" height="1.195313" flags="32" />
+			</container>
+		</cluster>
+		<cluster name="Stone3" lootmax="2">
+			<de name="TrajectoryStones" />
+			<container name="road" lootmax="1">
+			<point pos="1.495153 -0.501526 0.119188" range="0.478125" height="1.195313" flags="32" />
+			<point pos="-1.820516 -0.879303 -0.069031" range="0.478125" height="1.195313" flags="32" />
+			<point pos="-0.040581 -0.670837 -1.206359" range="0.478125" height="1.195313" flags="32" />
+			</container>
+		</cluster>
+		<cluster name="Stone4" lootmax="2">
+			<de name="TrajectoryStones" />
+			<container name="road" lootmax="1">
+			<point pos="1.495153 -0.501526 0.119188" range="0.478125" height="1.195313" flags="32" />
+			<point pos="-1.820516 -0.879303 -0.069031" range="0.478125" height="1.195313" flags="32" />
+			<point pos="-0.040581 -0.670837 -1.206359" range="0.478125" height="1.195313" flags="32" />
+			</container>
+		</cluster>
+		<cluster name="Stone5" lootmax="2">
+			<de name="TrajectoryStones" />
+			<container name="road" lootmax="1">
+			<point pos="1.495153 -0.501526 0.119188" range="0.478125" height="1.195313" flags="32" />
+			<point pos="-1.820516 -0.879303 -0.069031" range="0.478125" height="1.195313" flags="32" />
+			<point pos="-0.040581 -0.670837 -1.206359" range="0.478125" height="1.195313" flags="32" />
 			</container>
 		</cluster>
 </prototype>

@@ -73,20 +73,12 @@ class CustomMission: MissionServer
 			itemEnt = player.GetInventory().CreateInInventory("Compass");
 
             itemEnt = player.GetInventory().CreateInInventory("SodaCan_Pipsi");
-			
-			itemEnt = player.GetInventory().CreateInInventory("SodaCan_Pipsi");
 
             itemEnt = player.GetInventory().CreateInInventory("BandageDressing");
 
             itemEnt = player.GetInventory().CreateInInventory("TunaCan");
 
-            itemEnt = player.GetInventory().CreateInInventory("TunaCan");
-
             itemEnt = player.GetInventory().CreateInInventory("Apple");
-
-            itemEnt = player.GetInventory().CreateInInventory("Pear");
-
-            itemEnt = player.GetInventory().CreateInInventory("Plum");
 			
 			itemEnt = player.GetInventory().CreateInInventory("Chemlight_White");
 			

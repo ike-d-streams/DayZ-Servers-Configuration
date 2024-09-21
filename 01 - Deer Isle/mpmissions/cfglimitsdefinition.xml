@@ -34,10 +34,16 @@
 		<usage name="SeasonalEvent"/>		
 		<usage name="ContaminatedArea"/>		
 		<usage name="Crypt" />		
-		<usage name="TempleCore" />		
+		<usage name="TempleMjHandle" />		
+		<usage name="TempleMjHead" />		
 		<usage name="PlantsA" />	
 		<usage name="PlantsB" />	
-		<usage name="PlantsC" />			
+		<usage name="PlantsC" />		
+		<usage name="Special"/>
+		<usage name="SMK"/>
+        <usage name="Lunapark"/>
+        <usage name="Underground"/>		
+		<usage name="Historical"/>
 	</usageflags>
 	<valueflags>
 		<value name="Tier1"/>
@@ -58,5 +64,6 @@
 		<value name="Tier16"/>	
 		<value name="Tier17"/>	
 		<value name="Tier18"/>	
+		<value name="Unique"/>
 	</valueflags>
 </lists>

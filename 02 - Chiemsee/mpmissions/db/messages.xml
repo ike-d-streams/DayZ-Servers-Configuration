@@ -1,40 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <messages>
-    
-    <message>
-        <deadline>240</deadline>
-        <shutdown>1</shutdown>
-        <text>This server will shutdown in #tmin minutes.</text>
-    </message>
-
-    <message>
-        <delay>0</delay>
-        <onconnect>1</onconnect>
-        <text>Welcome to #name</text>
-    </message>
-
-    <message>
-        <delay>2</delay>
-        <onconnect>1</onconnect>
-        <text>Discord: https://discord.gg/N8dYacpPgz</text>
-    </message>
-
-    <message>
-        <delay>3</delay>
-        <onconnect>1</onconnect>
-        <text>Twitter: ike_d_streams</text>
-    </message>
-
-    <message>
-        <repeat>30</repeat>
-        <text>Discord: https://discord.gg/N8dYacpPgz</text>
-    </message>
-
-    <message>
-        <repeat>30</repeat>
-        <text>Twitter: ike_d_streams</text>
-    </message>
-
 <!--
 See https://community.bistudio.com/wiki/DayZ:Server_Messages for more information
 
